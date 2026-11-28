@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RKB</title>
+<script>
+// This app moved into RKB. Same address after it, so old links and bookmarks keep working.
+var rest = location.pathname.replace(/^\/rkb-news\/?/, '');
+location.replace('/rkb-app/news/' + rest + location.search + location.hash);
+</script>
+<noscript><meta http-equiv="refresh" content="0; url=/rkb-app/news/"></noscript></head>
+<body><p><a href="/rkb-app/news/">Open RKB</a></p></body></html>
